@@ -12,7 +12,6 @@ Generate a clean, markdown-formatted directory tree of any GitHub repository dir
 - 📋 One-click copy of the generated markdown tree
 - ⚡ Built with **React + Vite + TypeScript**
 
-
 ## 🛠️ Getting Started
 
 ```bash
@@ -27,12 +26,12 @@ npm install
 
 # Start the development server
 npm run dev
-````
+```
 
 ## 🔐 GitHub API Rate Limits
 
-* Unauthenticated: **60 requests/hour**
-* Authenticated with PAT: **5,000 requests/hour**
+- Unauthenticated: **60 requests/hour**
+- Authenticated with PAT: **5,000 requests/hour**
 
 To increase the limit:
 
