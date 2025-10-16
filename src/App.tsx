@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 
 interface RepoNode {
@@ -31,6 +31,21 @@ function App() {
     error: null,
     showCopied: false,
   });
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const owner = params.get('owner');
+    const repo = params.get('repo');
+    
+    if (owner && repo) {
+      setState(prev => ({
+        ...prev,
+        inputType: 'manual',
+        owner: owner,
+        repo: repo,
+      }));
+    }
+  }, []);
 
   const parseRepoUrl = (
     url: string,
