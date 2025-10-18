@@ -288,6 +288,10 @@ body {
   padding: 16px;
   width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .footer-link {
@@ -299,6 +303,23 @@ body {
 
 .footer-link:hover {
   transform: scale(1.1);
+}
+
+.extension-link {
+  margin-left: 0;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.extension-link:hover {
+  background: rgb(74, 74, 211);
+  color: #ffffff;
+  transform: none;
 }
 
 .github-icon {

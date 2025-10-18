@@ -339,6 +339,14 @@ function App() {
         >
           <span className="github-icon">GitHub</span>
         </a>
+        <a
+          href="https://github.com/anuragparashar26/repotree-extension"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link extension-link"
+        >
+          Get RepoTree Chrome Extension
+        </a>
       </footer>
     </div>
   );
