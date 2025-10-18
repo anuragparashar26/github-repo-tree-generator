@@ -12,6 +12,8 @@ Generate a clean, markdown-formatted directory tree of any GitHub repository dir
 - 📋 One-click copy of the generated markdown tree
 - ⚡ Built with **React + Vite + TypeScript**
 
+Get the Chrome extension here: [repotree-extension](https://github.com/anuragparashar26/repotree-extension)
+
 ## 🛠️ Getting Started
 
 ```bash
